@@ -11,13 +11,14 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-import { SportsSoccer } from '@mui/icons-material';
+import { SportsSoccer, Whatshot } from '@mui/icons-material';
 
 
 export const logo = 'img/MyTube.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
+  { name: 'Trending', icon: <Whatshot />, },
   { name: 'Football', icon: <SportsSoccer />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
